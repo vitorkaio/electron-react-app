@@ -1,0 +1,11 @@
+.enter {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enter > input {
+  height: 20px;
+  margin-right: 5px;
+}
