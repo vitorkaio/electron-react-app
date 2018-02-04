@@ -9,10 +9,9 @@ class ListarComponent extends Component<Props> {
 
   renderLista() {
     let lista = [];
-
-    for(let item of this.props.lista) {
+    for(let x = 0; x < this.props.lista.length; x++) {
       lista.push(
-        <li>{item}</li>
+        <li key={x}>{this.props.lista[x]}</li>
       )
     }
 
